@@ -14,6 +14,14 @@ Create a .env file with the follow content:
 REACT_APP_API_BASE=http://localhost:8080/api
 ```
 
+# Run the application
+
+In the terminal, run the follow command:
+
+```
+npm start
+```
+
 ## 🚀 Technologies
 
 - React
