@@ -1,0 +1,32 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+.modal-content {
+  border-radius: 10px;
+  background-color: #ffff;
+  padding: 30px;
+  width: 400px;
+}
+
+.modal-content input {
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.modal-content button {
+  display: flex;
+  margin: 0 auto;
+}
